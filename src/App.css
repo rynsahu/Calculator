@@ -1,0 +1,12 @@
+.App-display{
+    height: 60vmin;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.836)) 
+}
+
+.App-keypad{
+    margin: 0.3em;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 70px 70px 70px 70px 70px;
+    grid-gap: 5px;
+}
